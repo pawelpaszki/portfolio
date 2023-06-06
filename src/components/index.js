@@ -6,6 +6,6 @@ export { default as Skills } from './Skills/Skills'
 export { default as Education } from './Education/Education'
 export { default as Experience } from'./Experience/Experience'
 export { default as Contacts } from'./Contacts/Contacts'
-export { default as Achievement } from './Achievement/Achievement'
+export { default as Certificates } from './Certificates/Certificates'
 
 export { default as BackToTop } from'./BackToTop/BackToTop'

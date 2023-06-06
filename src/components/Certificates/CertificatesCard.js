@@ -6,14 +6,14 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 
 import { AiOutlineFolder } from "react-icons/ai";
 
-import './Achievement.css'
+import './Certificates.css'
 
-function AchievementCard({id, title, details, date, field, image}) {
+function CertificatesCard({id, title, details, date, field, image}) {
 
     const { theme } = useContext(ThemeContext);
 
     const useStyles = makeStyles((t) => ({
-        achievementCard : {
+        certificateCard : {
             backgroundColor:theme.primary30,
             "&:hover": {
                 backgroundColor:theme.primary50,
@@ -24,7 +24,7 @@ function AchievementCard({id, title, details, date, field, image}) {
     const classes = useStyles();
     return (
         <Fade bottom>
-           <div key={id} className={`achievement-card ${classes.achievementCard}`}>
+           <div key={id} className={`certificate-card ${classes.certificateCard}`}>
                <div className="achievecard-content">
                     <div className="achievecard-details1">
                         <h2 style={{color: theme.tertiary}}>{title}</h2>
@@ -47,4 +47,4 @@ function AchievementCard({id, title, details, date, field, image}) {
     )
 }
 
-export default AchievementCard
+export default CertificatesCard

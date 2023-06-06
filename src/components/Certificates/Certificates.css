@@ -1,4 +1,4 @@
-.achievement {
+.certificate {
     min-height: 100vh;
     display: flex;
     flex-direction: row;
@@ -7,7 +7,7 @@
     padding: 3rem;
 }
 
-.achievement-body {
+.certificate-body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -16,19 +16,19 @@
     width: 90%;
 }
 
-.achievement-body h1 {
+.certificate-body h1 {
     font-family: var(--primaryFont);
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
 }
 
-.achievement-body h4 {
+.certificate-body h4 {
     font-size: 1.75rem;
     font-family: 'Caveat', cursive;
     font-weight: 400;
 }
 
-.achievement-cards {
+.certificate-cards {
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@
     flex: 0.6;
 }
 
-.achievement-card {
+.certificate-card {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -115,11 +115,11 @@
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
-    .achievement-card {
+    .certificate-card {
         justify-content: flex-start;
     }
 
-    .achievement-body {
+    .certificate-body {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -127,12 +127,12 @@
         flex: 0.3;
         width: 90%;
     }
-    .achievement-body h1 {
+    .certificate-body h1 {
         font-family: var(--primaryFont);
         font-size: 3.1rem;
     }
     
-    .achievement-cards {
+    .certificate-cards {
         padding: 1rem;
         margin-left: 1%;
         width: 100%;
@@ -145,7 +145,7 @@
 }
 
 @media screen and (max-width: 992px) {
-    .achievement{
+    .certificate{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -155,22 +155,22 @@
     }
 
 
-    .achievement-body {
+    .certificate-body {
         width: 100%;
     }
 
-    .achievement-body h1 {
+    .certificate-body h1 {
         font-size: 2.5rem;
     }
 
-    .achievement-cards {
+    .certificate-cards {
         margin-left: 0%;
         padding: 1rem 0;
         width: 80%;
         margin-top: 1rem;
     }
 
-    .achievement-card {
+    .certificate-card {
         margin-left: 0px;
         height: fit-content;
     }
@@ -212,17 +212,17 @@
 }
 
 @media screen and (max-width: 600px) {
-    .achievement{
+    .certificate{
         padding: 1rem;
     }
-    .achievement-cards {
+    .certificate-cards {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 600px) {
 
-    .achievement-body h4 {
+    .certificate-body h4 {
         font-size: 1.5rem;
     }
 
