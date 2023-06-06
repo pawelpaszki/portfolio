@@ -1,13 +1,12 @@
 export const socialsData = {
-    github: 'https://github.com/sreerag-rajan',
+    github: 'https://github.com/pawelpaszki',
     facebook: '',
-    linkedIn: 'https://www.linkedin.com/in/sreerag-rajan-55383a222',
+    linkedIn: 'https://www.linkedin.com/in/pawelpaszki/',
     instagram: '',
     codepen: '',
     twitter: '',
     reddit: '',
     blogger: '',
-    medium: 'https://medium.com/@sreerag.rajan5',
     stackOverflow: '',
     gitlab: '',
     youtube: ''

@@ -1,5 +1,5 @@
 .about {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     position: relative;
 }
 
@@ -89,6 +89,10 @@
     top: 20px;
   }
 
+  .about-description > h2{
+    align-self: center;
+  }
+
     .about-body {
         padding-top: 2rem;
         display: flex;
@@ -115,8 +119,9 @@
     }
 
     .about-img > img {
-        width: 250px;
-        flex: 0.4;
+      display: none;
+        /* width: 250px;
+        flex: 0.4; */
     }
 
 }
@@ -126,9 +131,6 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-  }
-  .about-description > h2{
-    align-self: center;
   }
 
 }

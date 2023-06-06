@@ -31,8 +31,8 @@ export const experienceData = [
         id: 5,
         company: 'Access Translations, Cork',
         jobtitle: 'Polish <> English interpreter (part time)',
-        startYear: '2016',
-        endYear: '2013'
+        startYear: '2013',
+        endYear: '2016'
     },
     {
         id: 6,

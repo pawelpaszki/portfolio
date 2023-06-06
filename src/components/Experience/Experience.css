@@ -1,6 +1,6 @@
-.experience{
+/* .experience{
     min-height: 100vh;
-}
+} */
 
 .experience-body {
     display: flex;
@@ -92,16 +92,6 @@
     pointer-events: none;
 }
 
-
-
-
-
-
-@media (min-width: 992px) and (max-width: 1380px) {
-
-}
-
-
 @media screen and (max-width: 992px) {
     .experience {
         min-height: 100%;
@@ -115,6 +105,7 @@
     }    
     .experience-description > h1{
         font-size: 3.2rem;
+        align-self: center;
     }
     .experience-card {
         width: 100%;
