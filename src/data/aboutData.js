@@ -1,6 +1,9 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "Hello! My name is Sreerag Rajan. I'm an aspiring web developer based in India.",
-    description2: "I am a student at Masai School, currently learning Fullstack Web-Development. A project that I worked on towards the end of my Master’s in History set me on this path of a web developer. The project involved looking at movies on historical themes that could be considered as an educational tool. The website was not the focus of the project, but working on it was such a thrilling experience that a career in this felt like a right fit. Other than this I am a bibliophile, who not just loves reading books but also buying and maintaining a personal library.",
+    title: "About me",
+    description1: "Hello! My name is Pawel Paszki. I am a Senior Software Quality Enginner at Red Hat",
+    description2: "I am also doing part-time Masters Degree in Enterprise Software Systems at South East Technological University in Waterford.",
+    description3: "I am all-tech enthusiast. In my spare time I tend to do various side projects. I am also trying to contribute to open source projects. I have developed two games for SAITO, which is a blockchain project, which are hosted on their arcade.",
+    description4: "Apart from tech stuff, I like watching and playing football, good movies, music. I am also trying to stay up to date with financial news.",
+    description5: "I am sort of petrol head (v8 sound is better than any radio station :))",
     image: 2
 }

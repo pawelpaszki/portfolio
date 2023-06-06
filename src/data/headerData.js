@@ -1,9 +1,9 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/cv.pdf'
 
 export const headerData = {
-    name: 'Sreerag Rajan',
-    title: "Web Developer",
-    desciption:"Life may be a meandering path but don't worry about it, rather enjoy it. It is about the journey, not the destination so explore all that comes your way, learn and grow from it, for this journey only happens once.",
-    image: 'https://avatars.githubusercontent.com/u/85482640?v=4',
+    name: 'Pawel Paszki',
+    title: "Senior Quality Software Engineer",
+    desciption:"I am a Senior Quality Software Engineer at Red Hat working on cutting edge cloud services. Experienced in writing code along with unit, integration, e2e and performance tests, ci/cd process, Grafana dashboards, Prometheus metrics and alerts and more.",
+    image: 'https://media.licdn.com/dms/image/D4E03AQHe90rSWy0BCA/profile-displayphoto-shrink_200_200/0/1684134023616?e=1691625600&v=beta&t=8sXH4LSeEaUTY9lYIF1gEt9ZskQeKmNOsiDeVmmCdaI',
     resumePdf: resume
 }
