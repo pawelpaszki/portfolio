@@ -33,7 +33,7 @@ function Skills() {
                         direction="left"
                     >
                         {skillsData.map((skill, id) => (
-                            <div className="skill--box" key={id} style={skillBoxStyle}>
+                            <div className="skill--box" key={id} style={skillBoxStyle} style={{backgroundColor: theme.primary}}>
                                 <img src={skillsImage(skill)} alt={skill} />
                                 <h3 style={{color: theme.tertiary}}>
                                     {skill}
