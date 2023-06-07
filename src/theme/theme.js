@@ -75,25 +75,29 @@ export const bwThemeLight = {
 
 export const bwThemeDark = {
     type: 'dark',
-    primary: '#18121e',
-    primary400: '#18121e',
-    primary600: '#18121e',
-    primary80: '#18121ecc',
-    primary50: '#18121e80',
-    primary30: '#18121e4d',
-    secondary: '#eac67a',
-    secondary70: '#eac67ab3',
-    secondary50: '#eac67a80',
-    tertiary: '#233237',
-    tertiary80: '#233237cc',
-    tertiary70: '#233237b3',
-    tertiary50: '#23323780',
+    primary: '#272727',
+    primary400: '#272727',
+    primary600: '#272727',
+    primary80: '#272727cc',
+    primary50: '#27272780',
+    primary30: '#2727274d',
+    secondary: '#14a76c',
+    secondary70: '#14a76cb3',
+    secondary50: '#14a76c80',
+    tertiary: '#ffffff',
+    tertiary80: '#ffffffcc',
+    tertiary70: '#ffffffb3',
+    tertiary50: '#ffffff80',
     aboutimg1: bwThemeboy,
     aboutimg2: bwThemegirl,
     eduimg: eduBlack,
     expimg: expBlack,
     contactsimg: contactsBlack
 }
+
+// 272727
+// 14a76c
+// edf5e1
 
 export const blueThemeLight = {
     type: 'light',

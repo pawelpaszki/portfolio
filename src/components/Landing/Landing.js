@@ -9,11 +9,8 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
     FaLinkedin,
     FaGithub,
-    FaYoutube,
-    FaBlogger,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -79,7 +76,7 @@ function Landing() {
                             <a
                                 href={socialsData.linkedIn}
                                 target='_blank'
-                                rel='noreferrer'
+                                rel="noopener noreferrer"
                             >
                                 <FaLinkedin
                                     className='landing--social'
@@ -92,7 +89,7 @@ function Landing() {
                             <a
                                 href={socialsData.github}
                                 target='_blank'
-                                rel='noreferrer'
+                                rel="noopener noreferrer"
                             >
                                 <FaGithub
                                     className='landing--social'
@@ -130,7 +127,7 @@ function Landing() {
                                     href={headerData.resumePdf}
                                     download='resume'
                                     target='_blank'
-                                    rel='noreferrer'
+                                    rel="noopener noreferrer"
                                 >
                                     <Button className={classes.resumeBtn}>
                                         Download CV

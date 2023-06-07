@@ -5,12 +5,13 @@
     justify-content: center;
     width: 100%;
     color: hsla(117, 56%, 49%, 0.702);
+    padding: 1rem;
 }
 
 .education-description {
     width: 100%;
-    flex: 0.65;
-    padding: 2rem;
+    flex: 0.6;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -77,8 +78,8 @@
 .education-image {
     box-sizing: border-box;
     padding: 1rem;
-    flex: 0.35;
-    margin-top: 1rem;
+    flex: 0.4;
+    /* margin-top: 1rem; */
     pointer-events: none;
 }
 
@@ -102,6 +103,9 @@
 @media screen and (max-width: 992px) {
     .education {
         min-height: 100%;
+    }
+    .education-body {
+        padding: 0;
     }
     .education-image {
         display: none;

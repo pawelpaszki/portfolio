@@ -5,6 +5,7 @@
     justify-content: flex-start;
     /* min-height: 60vh; */
     padding: 2.5rem 2rem 2rem 2rem;
+    /* margin-top: 2rem; */
 }
 
 .skillsHeader {
@@ -92,6 +93,7 @@
     .skills {
         padding: 1rem;
         min-height: 100%;
+        margin-top: 0;
     }
     .skillsContainer {
         padding: 1rem;
