@@ -75,10 +75,50 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
+import bash from '../assets/svg/skills/bash.svg'
+import cypress from '../assets/svg/skills/cypress.svg'
+import grafana from '../assets/svg/skills/grafana.svg'
+import groovy from '../assets/svg/skills/groovy.svg'
+import jenkins from '../assets/svg/skills/jenkins.svg'
+import jira from '../assets/svg/skills/jira.svg'
+import kubernetes from '../assets/svg/skills/kubernetes.svg'
+import mocha from '../assets/svg/skills/mocha.svg'
+import nightwatch from '../assets/svg/skills/nightwatch.svg'
+import nodejs from '../assets/svg/skills/nodejs.svg'
+import postman from '../assets/svg/skills/postman.svg'
+import prometheus from '../assets/svg/skills/prometheus.svg'
+import winston from '../assets/svg/skills/winston.svg'
+
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
+        case 'bash':
+            return bash;
+        case 'cypress':
+            return cypress;
+        case 'grafana':
+            return grafana;
+        case 'groovy':
+            return groovy;
+        case 'jenkins':
+            return jenkins;
+        case 'jira':
+            return jira;
+        case 'kubernetes':
+            return kubernetes;
+        case 'mocha':
+            return mocha;
+        case 'nightwatch':
+            return nightwatch;
+        case 'nodejs':
+            return nodejs;
+        case 'postman':
+            return postman;
+        case 'prometheus':
+            return prometheus;
+        case 'winston':
+            return winston;
         case 'gcp':
             return gcp;
         case 'html':
