@@ -1,0 +1,162 @@
+.contributions-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.contributions-description {
+  width: 100%;
+  flex: 0.65;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.contributions > h1 {
+  margin-right: 5%;
+  text-align: right;
+  font-size: 3.5rem;
+  font-family: var(--primaryFont);
+  margin-bottom: 2rem;
+}
+
+.contributions-card {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content: flex-start;
+  width: 90%;
+  height: 160px;
+  padding: 1.5rem;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+  transition: background-color 200ms ease-in-out;
+}
+
+.cont-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: auto;
+  height: 100%;
+}
+
+.cont-img > img {
+  width: 160px;
+  pointer-events: none;
+}
+
+.contributions-details {
+  margin-left: 0.6rem;
+}
+
+.contributions-details > h6 {
+  font-family: var(--primaryFont);
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.contributions-details > h4 {
+  font-family: var(--primaryFont);
+  font-size: 1.225rem;
+  font-weight: 600;
+}
+
+.contributions-details > h5 {
+  font-family: var(--primaryFont);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.contributions-image {
+  box-sizing: border-box;
+  padding: 1rem;
+  flex: 0.35;
+  margin-left: 7%;
+  margin-top: 1rem;
+  pointer-events: none;
+}
+
+.contributions-image > img {
+  width: 100%;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 992px) {
+  .contributions {
+      min-height: 100%;
+  }
+  .contributions-image {
+      display: none;
+  }
+  .contributions-description {
+      flex: 1;
+      margin: auto;
+  }    
+  .contributions > h1{
+      font-size: 3.2rem;
+      align-self: right;
+  }
+  .contributions-card {
+      width: 100%;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contributions > h1{
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      align-self: right;
+  }
+  .contributions-description {
+      padding: 1rem;
+  }
+  .contributions-card {
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      height: 130px;
+  }
+  .contributions-details > h6 {
+      font-size: 0.85rem;
+      margin-bottom: 0.45rem;
+  }
+  
+  .contributions-details > h4 {
+      font-size: 1.125rem;
+      line-height: 126%;
+  }
+  
+  .contributions-details > h5 {
+      font-size: 1.05rem;
+      line-height: 126%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contributions > h1{
+      font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
+}
