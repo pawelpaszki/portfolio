@@ -110,7 +110,7 @@ function Contacts() {
                 <div className='contacts-body'>
 
                     <div className='contacts-details'>
-                        <a
+                        <a href="/#"
                             className='personal-details'
                         >
                             <div className={classes.detailsIcon}>
@@ -120,7 +120,7 @@ function Contacts() {
                                 {contactsData.email}
                             </p>
                         </a>
-                        <a
+                        <a href="/#"
                             className='personal-details'
                         >
                             <div className={classes.detailsIcon}>
